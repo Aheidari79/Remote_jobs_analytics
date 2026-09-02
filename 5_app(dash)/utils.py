@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+from pathlib import Path
 
 # ---------------------------------------------------------
 # Load Data
@@ -12,7 +12,10 @@ def load_data():
     Load and process the dataset once for all pages.
     """
 
-    df = pd.read_csv("../3_data/final.csv")
+    BASE_DIR = Path(__file__).resolve().parent
+    DATA_PATH = BASE_DIR.parent / "3_data" / "final.csv"
+
+    df = pd.read_csv(DATA_PATH)
 
 
     # Expand seniority column
