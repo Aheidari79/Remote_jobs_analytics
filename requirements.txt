@@ -5,3 +5,4 @@ streamlit
 plotly
 streamlit-echarts
 datetime
+pathlib
