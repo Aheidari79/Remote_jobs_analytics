@@ -1,7 +1,7 @@
 pandas
 numpy
 requests
-playwright
 streamlit
 plotly
 streamlit-echarts
+datetime
