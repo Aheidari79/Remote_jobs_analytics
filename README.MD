@@ -3,6 +3,8 @@
 ## Overview
 This project presents an Exploratory Data Analysis (EDA) of the global remote job market. By analyzing job postings, salaries, locations, and required skills, this analysis provides data-driven insights into hiring trends, compensation structures, and in-demand roles for remote workers worldwide.
 
+The Online Dasboard link: https://remotejobsanalytics-82lhksosu89jc4ocyjy7s7.streamlit.app/
+
 ## Key Insights & Findings
 
 ### 1. Compensation & Seniority 📈
